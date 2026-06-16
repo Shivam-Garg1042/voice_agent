@@ -1,0 +1,5 @@
+# Pinned to the 1.5.x line (matches what is installed: livekit-agents 1.5.8).
+# Includes the deepgram (STT), cartesia (TTS), google (LLM), silero (VAD) and
+# turn-detector plugins.
+livekit-agents[deepgram,cartesia,google,silero,turn-detector]~=1.5
+python-dotenv
